@@ -13,7 +13,7 @@
 #
 # You should have received a copy of the GNU General Public License
 # along with this program.  If not, see <http://www.gnu.org/licenses/>.
-""" - ProjectBish Google Drive managers - """
+""" - KensurBot™️ Google Drive managers - """
 import io
 import os
 import pickle
@@ -503,7 +503,7 @@ async def upload(gdrive, service, file_path, file_name, mimeType):
         pass
     body = {
         "name": file_name,
-        "description": "Uploaded from Telegram using ProjectBish userbot.",
+        "description": "Uploaded from Telegram using KensurBot™️.",
         "mimeType": mimeType,
     }
     try:
